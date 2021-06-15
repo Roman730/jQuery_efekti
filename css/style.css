@@ -1,0 +1,36 @@
+h1 {
+  text-align: center;
+  color: rgb(223, 126, 8);
+  text-transform: uppercase;
+}
+
+.zaglavlje,
+.podnozje {
+  width: 50%;
+  margin: auto;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.zaglavlje {
+  cursor: pointer;
+}
+
+.zaglavlje p {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.podnozje {
+  display: none;
+}
+
+#oglas {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  background-color: gray;
+}
